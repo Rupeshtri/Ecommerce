@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --primaryColor: #D5CEA3;
+    --secondaryColor: green;
+    --dark : black;
+    --white: white;
+    --primaryOpacityColor: rgb(199, 14, 14);
+
+}
+a{
+    color:var(--dark);
+    text-decoration: none;
+}
+header{
+    background-color: white;
+    box-shadow: 0px 5px 20px black;
+}
+header .top-section ul:last-child i{
+    font-size: 30px;
+    
+}
+header .top-section  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: var(--primaryColor);
+}
+
+header .top-section ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+header .logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 0px 60px;
+}
+
+header .logo-section .logo a{
+    display: flex;
+    align-items: center;
+}
+header .logo-section h2{
+    margin: 0px 20px;
+    font-size: 40px;
+}
+
+header .logo-section img{
+    height: 60px;
+    width: 60px;
+
+}
+header  .menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+header .menu a{
+    display: block;
+    padding: 30px 15px;
+    transition: all 0.3s ease;
+}
+header .menu a:hover{
+background-color: var(--primaryColor);
+}
+
+header .user{
+    display: flex;
+    gap: 10px;
+}
+
+header .user .btn{
+    padding: 10px 15px;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+}
+
+header .user .btn:hover{
+    background-color: var(--primaryColor);
+}
+
+header .user .btn-signup{
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+
+
+
+/* @import url('responsive.css') */
